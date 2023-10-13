@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+
+}
+.reloj {
+    border: 1rem solid blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  50vh;
+    font-family: monospace;
+    font-size: 2rem;
+    color: rgb(17, 20, 13);
+}
+.pulcera{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.pulso{
+    border: 0.5rem solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.seguro{
+    transform: scaleX(-1) scaleY(-1);
+}
